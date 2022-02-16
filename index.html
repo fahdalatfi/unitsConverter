@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/stylesheet.css">
+
+    <title>Universal Unit Converter</title>
+</head>
+<body>
+    <div id="optionsContainer">
+        <label id="initialOptionsLabel">Please choose the unit type</label>
+        <select id="initialOptions">
+            <option value="length">Length</option>
+            <option value="weight">Weight</option>
+        </select>
+        <button id="initialOptionsBtn">Next →</button>
+    </div>
+
+    <div id="containerWeight">
+        <label>Please choose the unit:</label>
+       <select id="unitsWeight">
+        <option value="mg">Milligram</option>
+        <option value="g">Gram</option>
+        <option value="kg">Kilogram</option>
+        <option value="tonne">Tonne</option>
+   </select>
+
+   <label>Please specify the quantity:</label>
+   <input type="number" id="userInputWeight">
+
+   <label>Please choose the converted unit</label>
+   <select id="unitsTargetedWeight">
+       <option value="mg">Milligram</option>
+       <option value="g">Gram</option>
+       <option value="kg">Kilogram</option>
+       <option value="tonne">Tonne</option>
+   </select>
+
+   <div id="resultsWeight"></div>
+   <button type="submit" id="btnWeight">Convert</button>
+   <button type="submit" id="btnWeightBack">Back</button>
+   </div>
+
+    <div id="containerLength">
+         <label>Please choose the unit:</label>
+        <select id="unitsLength">
+         <option value="mm">Millimeters</option>
+         <option value="cm">Centimeters</option>
+         <option value="dm">Decimeters</option>
+         <option value="m">Meters</option>
+    </select>
+
+    <label>Please specify the quantity:</label>
+    <input type="number" id="userInputLength">
+
+    <label>Please choose the converted unit</label>
+    <select id="unitsTargetedLength">
+        <option value="mm">Millimeters</option>
+        <option value="cm">Centimeters</option>
+        <option value="dm">Decimeters</option>
+        <option value="m">Meters</option>
+    </select>
+
+    <div id="resultsLength"></div>
+
+    <button type="submit" id="btnLength">Convert</button>
+    <button type="submit" id="btnLengthBack">Back</button>
+
+    </div>
+
+    
+    <script src="assets/js/script.js" async></script>
+</body>
+</html>

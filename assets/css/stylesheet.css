@@ -1,0 +1,74 @@
+* , body {
+    box-sizing: content-box;
+    width: 100%;
+}
+
+body{
+    background-image: url('../images/bg.webp');
+}
+
+#optionsContainer{
+    background-color: #FFF;
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    width: 450px;
+    margin: 0 auto;
+    min-width: 350px;
+    font-size: 25px;
+
+}
+
+#containerWeight{
+    background-color: #FFF;
+    padding: 30px;
+    border-radius: 10px;
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 500px;
+    width: 450px;
+    margin: 0 auto;
+    min-width: 350px;
+}
+
+.container{
+    background-color: #FFF;
+    padding: 30px;
+    border-radius: 10px;
+}
+#initialOptionsBtn, #btnLength, #btnWeight, #btnLengthBack, #btnWeightBack{
+    height: 35px;
+    width: 60px;
+    margin-top: 10%;
+    border: black 0.5px solid;
+    background-color: transparent;
+    height: 500px;
+    width: 20%;
+}
+
+#initialOptions, #btnWeightBack, #btnLengthBack, #initialOptionsBtn, #btnLength, #btnWeight, #unitsWeight, #unitsTargetedWeight, #unitsLength, #unitsTargetedLength, #userInputLength, #userInputWeight{
+    height: 35px;
+    font-size: 17px;
+    border: black 0.5px solid;
+    background-color: transparent;
+}
+
+#containerLength {
+    background-color: #FFF;
+    padding: 30px;
+    border-radius: 10px;
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 500px;
+    width: 450px;
+    margin: 0 auto;
+    min-width: 350px;
+}
