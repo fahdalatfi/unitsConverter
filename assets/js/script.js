@@ -1,5 +1,5 @@
 /*=====================================================
- Version: 0.1.3 Pre-Alpha
+ Version: 1.0.0 Gold
  Author: Fahd Alatfi
  Author URL : https://github.com/fahdalatfi
  APIs: None
